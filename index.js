@@ -4,8 +4,8 @@ const orderController = require('./controllers/orderController');
 
 const app = express();
 
-const PORT = process.env.PORT || 3000;
 app.use(express.json());
+const PORT = process.env.PORT || 3000;
 
 app.use('/order', orderController);
 

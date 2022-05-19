@@ -13,7 +13,6 @@ const Cnpj = (sequelize, DataTypes) => {
     Cnpj.hasOne(models.Order,
       { foreignKey: 'cnpjId', as: 'orders' });
   };
-  
   return Cnpj;
 };
   

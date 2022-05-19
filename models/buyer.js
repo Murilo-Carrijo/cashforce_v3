@@ -34,7 +34,6 @@ const Buyer = (sequelize, DataTypes) => {
     Buyer.hasMany(models.Order,
       { foreignKey: 'buyerId', as: 'order'})
   };
-  
   return Buyer;
 };
   

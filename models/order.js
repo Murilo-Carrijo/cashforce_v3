@@ -41,7 +41,6 @@ const Order = (sequelize, DataTypes) => {
     Order.belongsTo(models.Provider,
       { foreignKey: 'providerId', as: 'providers' });
   };
-  
   return Order;
 };
   

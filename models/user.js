@@ -19,7 +19,6 @@ const User = (sequelize, DataTypes) => {
     User.hasMany(models.Order,
       { foreignKey: 'userId', as: 'order' })
   };
-  
   return User;
 };
   

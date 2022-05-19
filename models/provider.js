@@ -39,8 +39,7 @@ const Provider = (sequelize, DataTypes) => {
   Provider.associate = (models) => {
     Provider.hasOne(models.Order,
       { foreignKey: 'providerId', as: 'orders' });
-  };
-    
+  }; 
   return Provider;
 };
     
