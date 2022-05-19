@@ -5,10 +5,10 @@
 
 ## Como rodar o projeto localmente
 
-  * Clone o projeto: git clone git@github.com:Murilo-Carrijo/cashforce_v3.git;
+  * Clone o projeto: `git clone git@github.com:Murilo-Carrijo/cashforce_v3.git`;
   * Instale a dependência: `npm install`;
   * O arquivo `cashforce-v3.sql` possui os comando para criar o banco de dados no MySQL Workbench;
-  * Realize a conexão com entre o MySQL Workbench com a aplicação setando as variáveis de ambiente segue exemplo:
+  * Realize a conexão  entre o MySQL Workbench com a aplicação setando as variáveis de ambiente segue exemplo:
 
   ```json
     MYSQL_USER=root
