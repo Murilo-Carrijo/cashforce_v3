@@ -18,4 +18,4 @@
   ```
   * Execute o comando `npm run dev`;
 
-  **Obs.: Verifique se a porta 3001 está diponível para rodar a aplicação.
+  # Obs.: Verifique se a porta 3001 está diponível para rodar a aplicação.
