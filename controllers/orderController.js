@@ -15,7 +15,6 @@ router.get('/', async (_req, res) => {
     );
     return res.status(200).json(orders);
   } catch (e) {
-    console.log(e.message);
     res.status(500).json({ message: 'Something went wrong' });
   };
 });
