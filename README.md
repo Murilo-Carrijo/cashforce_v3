@@ -16,3 +16,6 @@
     MYSQL_DATABASE=cashforce_v3
     HOSTNAME=localhost
   ```
+  * Execute o comando `npm run dev`;
+
+  **Obs.: Verifique se a porta 3001 está diponível para rodar a aplicação.
